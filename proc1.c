@@ -1,4 +1,4 @@
-// gcc -c -fPIC lib1.cpp && gcc -o lib1.so lib1.o -fPIC -shared -lstdc++ && gcc -c proc1.cpp && gcc -o proc1 proc1.o -lstdc++ -ldl && ./proc1
+// gcc -c -fPIC lib1.cpp && gcc -o lib1.so lib1.o -fPIC -shared -lstdc++ && gcc -c proc1.c && gcc -o proc1 proc1.o -ldl && ./proc1
 
 #include <stdio.h>
 #include <dlfcn.h>
